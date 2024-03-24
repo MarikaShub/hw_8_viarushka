@@ -13,6 +13,8 @@
   display: flex;
   align-items: center;
   gap: 5px;
+  width: 201px;
+  height: 40px;
 }
 
 .logo__image {
@@ -22,10 +24,53 @@
 .header__button {
   grid-column: 3/4;
   width: 115px;
+}
+
+.button {
   background: rgb(82, 34, 208);
-  border-radius: 30px;
+  border-radius: 100px;
+  color: white;
 }
 
 .header__logo {
   text-decoration: none;
+}
+.container {
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+}
+
+.main__inner {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+  gap: 20px;
+  justify-items: start;
+}
+
+.main__inner-title {
+  color: rgb(0, 0, 0);
+  font-family: Intro;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main__inner-text {
+  color: rgb(0, 0, 0);
+  font-family: Roboto Slab;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main__inner-button {
+  width: 270px;
+  height: 84px;
+  font-family: Intro;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0%;
 }
