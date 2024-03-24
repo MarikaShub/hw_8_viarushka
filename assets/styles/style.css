@@ -28,11 +28,12 @@
 
 .button {
   background: rgb(82, 34, 208);
+  font-family: "Wix Madefor Text", sans-serif;
   border-radius: 100px;
   color: white;
 }
 
-.header__logo {
+a {
   text-decoration: none;
 }
 .container {
@@ -45,11 +46,12 @@
   grid-template-rows: 2fr 1fr 1fr;
   gap: 20px;
   justify-items: start;
+  padding-left: 40px;
 }
 
 .main__inner-title {
   color: rgb(0, 0, 0);
-  font-family: Intro;
+  font-family: "Wix Madefor Text", sans-serif;
   font-size: 60px;
   font-weight: 400;
   line-height: 120%;
@@ -58,7 +60,7 @@
 }
 .main__inner-text {
   color: rgb(0, 0, 0);
-  font-family: Roboto Slab;
+  font-family: "Roboto Slab", sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 160%;
@@ -68,9 +70,36 @@
 .main__inner-button {
   width: 270px;
   height: 84px;
-  font-family: Intro;
+
   font-size: 35px;
   font-weight: 400;
   line-height: 35px;
   letter-spacing: 0%;
+}
+
+.footer__menu-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 6fr;
+  gap: 10px;
+  padding-left: 40px;
+}
+
+.footer__menu-item {
+  list-style-type: none;
+  color: rgb(82, 34, 208);
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.second {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+  gap: 20px;
+}
+.second__inner-item1 {
+  grid-column: 1/4;
 }
